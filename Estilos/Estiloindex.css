@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+.superior{
+    background: #194607;
+    height: 30px;
+}
+            .sup1{
+                width: 30%;
+                height: 30px;
+                float: left;
+                horiz-align: center;
+                color: greenyellow;
+            }
+                    .sup1 h2{
+                        font-size: 1em;
+                        float: left;
+                    }
+                    .sup1 img {
+                        width: 30px;
+                        height: 30px;
+                        float: left;
+                    }
+            .sup2{
+                width: 40%;
+                height: 30px;
+                float: left;
+                text-align: center;
+                font-size: 0.8em;
+                color: greenyellow;
+            }
+            .sup3{
+                width: 30%;
+                height: 30px;
+                float: left;
+                text-align: right;
+            }
+                        .red{
+                            width: 30px;
+                            height: 30px;
+                        }
+nav{
+    height: 100px;
+    background: greenyellow;
+}
+.banner{
+    width: 10%;
+    height: 100px;
+    float: right;
+}
+        .logo{
+            width: 100px;
+            height: 100px;
+        }
+.menu2{
+    width:90%;
+    height: 100px;
+    background: greenyellow;
+    float: left;
+}
+        .menu{
+            color: green;
+            display: inline-block;
+            padding: 35px 20px;
+            text-decoration: none;
+            font-size: 1.5em;
+            /*box-shadow:0 0 10px 10px #041762 inset;*/
+        }
+        .menu:hover{
+            background:white;
+            color: black;
+            display: inline-block;
+            padding: 35px 20px;
+            opacity: 20%;
+        }
+
+.slider{
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    overflow: hidden;
+}
+        .slider ul{
+            padding: 0;
+            display: flex;
+            width: 400%;
+            animation: cambioslider 20s infinite alternate;
+        }
+        .slider li{
+            list-style:none;
+            width: 100%;
+            /*padding: 25px;*/
+        }
+        .slider img {
+            width: 100%;
+            height: 600px;
+        }
+
+@keyframes cambioslider{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.fechas{
+    height: 300px;
+    background: greenyellow;
+    color: green;
+    font-size: 1.5em;
+    text-align: center;
+}
+        .lista1{
+            width: 40%;
+            height: 250px;
+            text-align: left;
+            float: left;
+            padding-top: 50px;
+            padding-left: 10%;
+        }
+        .lista2{
+            width: 40%;
+            height: 250px;
+            text-align: left;
+            float: left;
+            padding-top: 50px;
+            padding-left: 10%;
+        }
+.grados{
+    height: 450px;
+    color: #42C90E;
+    font-size: 1.5em;
+    text-align: center
+}
+.gradosp{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    overflow: hidden;
+}
+.gradosp ul{
+    padding: 0;
+    display: flex;
+    width: 300%;
+    animation: cambio 15s infinite alternate;
+}
+.gradosp li{
+    list-style:none;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.gradosp img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.videos{
+    height: 400px;
+    background: black;
+    color: #42C90E;
+    font-size: 1.5em;
+    text-align: center;
+}
+.mapa{
+    height: 450px;
+    background: #7F7F81;
+}
+footer{
+    background: #42C90E;
+    height: 200px;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    line-height:40px;
+}
+        .logos{
+            height: 120px;
+        }
+                .logosredes{
+                    padding-top: 10px;
+                    width: 20%;
+                    height: 60px;
+                    display: inline-block;
+                    align-items: center;
+                }
+                        .redes{
+                            width: 55px;
+                            height: 55px;
+                        }
+                .logosexternos{
+                    width: 80%;
+                    height: 60px;
+                    display: inline-block;
+                    align-items: center;
+                }
+                        .externos{
+                            display: inline-block;
+                           /* float: left;*/
+                            box-shadow: 0 0 0 2px #2A8308;
+                        }
+        .textof{
+            height: 80px;
+            display: inline-block;
+            align-items: center;
+        }
+                footer p{
+                    padding-top: 20px;
+                    margin: auto;
+                    width: 55%;
+                    line-height: 1.8em;
+                }
+address{
+    background: #E8E6F3;
+    height: 40px;
+    color: #7F7F81;
+    font-size: 0.8em;
+    text-align: center;
+    line-height:40px;
+}
